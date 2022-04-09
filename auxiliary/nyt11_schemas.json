@@ -1,0 +1,64 @@
+{
+  "id2relation": {
+    "0": "/location/country/capital",
+    "1": "/location/neighborhood/neighborhood_of",
+    "2": "/location/country/administrative_divisions",
+    "3": "/people/person/place_of_birth",
+    "4": "/business/person/company",
+    "5": "/people/deceased_person/place_of_death",
+    "6": "/people/person/place_lived",
+    "7": "/people/person/nationality",
+    "8": "/location/administrative_division/country",
+    "9": "/people/person/children",
+    "10": "/location/location/contains",
+    "11": "/business/company/founders"
+  },
+  "relation2id": {
+    "/location/country/capital": 0,
+    "/location/neighborhood/neighborhood_of": 1,
+    "/location/country/administrative_divisions": 2,
+    "/people/person/place_of_birth": 3,
+    "/business/person/company": 4,
+    "/people/deceased_person/place_of_death": 5,
+    "/people/person/place_lived": 6,
+    "/people/person/nationality": 7,
+    "/location/administrative_division/country": 8,
+    "/people/person/children": 9,
+    "/location/location/contains": 10,
+    "/business/company/founders": 11
+  },
+  "id2subject": {
+    "0": "PER",
+    "1": "ORG",
+    "2": "LOC"
+  },
+  "subject2id": {
+    "PER": 0,
+    "ORG": 1,
+    "LOC": 2
+  },
+  "object2id": {
+    "PER": 0,
+    "ORG": 1,
+    "LOC": 2
+  },
+  "id2object": {
+    "0": "PER",
+    "1": "ORG",
+    "2": "LOC"
+  },
+  "rel2so": {
+    "/location/neighborhood/neighborhood_of": {"subject": "LOC", "object": "LOC"},
+    "/people/person/place_lived": {"subject": "PER", "object": "LOC"},
+    "/people/person/place_of_birth": {"subject": "PER", "object": "LOC"},
+    "/business/person/company": {"subject": "PER", "object": "ORG"},
+    "/location/administrative_division/country": {"subject": "LOC", "object": "LOC"},
+    "/people/deceased_person/place_of_death": {"subject": "PER", "object": "LOC"},
+    "/location/country/administrative_divisions": {"subject": "LOC", "object": "LOC"},
+    "/location/country/capital": {"subject": "LOC", "object": "LOC"},
+    "/business/company/founders": {"subject": "ORG", "object": "PER"},
+    "/people/person/nationality": {"subject": "PER", "object": "LOC"},
+    "/location/location/contains": {"subject": "LOC", "object": "LOC"},
+    "/people/person/children": {"subject": "PER", "object": "PER"}
+}
+}
