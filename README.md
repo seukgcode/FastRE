@@ -3,6 +3,7 @@ The code and dataset for "FastRE: Towards Fast Relation Extraction with Convolut
 
 ### Requirements
 This repository is tested on PaddlePaddle==2.2.0 with CUDA==10.2 and cuDNN==7.6. Normally, the following environments are required:
+- python 3.7 +
 - paddlepaddle-gpu 1.8 +
 - numpy 1.19 +
 - tqdm
@@ -45,3 +46,6 @@ python train.py --name NYT24 \
                 --num_objs 4 \
                 --device cpu
 ```
+
+### Acknowledgement
+We refer to the code of [CASREL](https://github.com/weizhepei/CasRel). Thanks for their contributions.
