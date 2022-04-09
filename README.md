@@ -19,6 +19,7 @@ python train.py --name NYT10 \
 ```
 
 - Train and test on NYT11
+```
 python train.py --name NYT11 \
                 --train_path ./data/nyt11/new_train.json \
                 --valid_path ./data/nyt11/new_valid.json \
@@ -28,8 +29,9 @@ python train.py --name NYT11 \
                 --num_subs 3 \
                 --num_objs 3 \
                 --device cpu
-                
+```
 - Train and test on NYT24
+```
 python train.py --name NYT24 \
                 --train_path ./data/nyt24/new_train.json \
                 --valid_path ./data/nyt24/new_valid.json \
@@ -39,3 +41,4 @@ python train.py --name NYT24 \
                 --num_subs 4 \
                 --num_objs 4 \
                 --device cpu
+```
