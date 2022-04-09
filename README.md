@@ -2,7 +2,10 @@
 The code and dataset for "FastRE: Towards Fast Relation Extraction with Convolutional Encoder and Improved Cascade Binary Tagging Framework"
 
 ### Requirements
-This repository is tested on PaddlePaddle==2.2.0 with CUDA==10.2 and cuDNN==7.6.
+This repository is tested on PaddlePaddle==2.2.0 with CUDA==10.2 and cuDNN==7.6. Normally, the following environments are required:
+- paddlepaddle-gpu 1.8 +
+- numpy 1.19 +
+- tqdm
 
 ### Usage
 - Train and test on NYT10
