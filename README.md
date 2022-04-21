@@ -9,6 +9,8 @@ This repository is tested on PaddlePaddle==2.2.0 with CUDA==10.2 and cuDNN==7.6.
 - tqdm
 
 ### Usage
+By default, use the following commands to train the model for 60 epochs, save the model with the best performance, and finally test it on the test set.
+
 - Train and test on NYT10
 ```
 python train.py --name NYT10 \
@@ -49,3 +51,14 @@ python train.py --name NYT24 \
 
 ### Acknowledgement
 We refer to the code of [CASREL](https://github.com/weizhepei/CasRel). Thanks for their contributions.
+
+### Cite
+Please cite our paper if you find our work useful for your research:
+```
+@inproceedings{li2022FastRE,
+  title={FastRE: Towards Fast Relation Extraction with Convolutional Encoder and Improved Cascade Binary Tagging Framework},
+  author={Li, Guozheng and Chen, Xu and Wang, Peng and Xie, Jiafeng and Luo, Qiqing},
+  booktitle={Proceedings of the 31st International Joint Conference On Artificial Intelligence},
+  year={2022}
+  ```
+}
