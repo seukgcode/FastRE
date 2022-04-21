@@ -21,7 +21,7 @@ python train.py --name NYT10 \
                 --num_relations 29 \
                 --num_subs 4 \
                 --num_objs 4 \
-                --device cpu
+                --device gpu_num
 ```
 
 - Train and test on NYT11
@@ -34,7 +34,7 @@ python train.py --name NYT11 \
                 --num_relations 12 \
                 --num_subs 3 \
                 --num_objs 3 \
-                --device cpu
+                --device gpu_num
 ```
 - Train and test on NYT24
 ```
@@ -46,13 +46,13 @@ python train.py --name NYT24 \
                 --num_relations 24 \
                 --num_subs 4 \
                 --num_objs 4 \
-                --device cpu
+                --device gpu_num
 ```
 
 ### Acknowledgement
 We refer to the code of [CASREL](https://github.com/weizhepei/CasRel). Thanks for their contributions.
 
-### Cite
+### Reference
 Please cite our paper if you find our work useful for your research:
 ```
 @inproceedings{li2022FastRE,
