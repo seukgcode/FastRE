@@ -60,5 +60,5 @@ Please cite our paper if you find our work useful for your research:
   author={Li, Guozheng and Chen, Xu and Wang, Peng and Xie, Jiafeng and Luo, Qiqing},
   booktitle={Proceedings of the 31st International Joint Conference On Artificial Intelligence},
   year={2022}
-  ```
 }
+```
